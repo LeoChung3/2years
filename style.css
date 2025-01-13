@@ -1,13 +1,13 @@
 body {
-    background: rgb(1, 255, 44);
-    color: #eee;
+    background: rgb(153, 0, 255);
+    color: #09ff00;
     font-family: monospace;
     max-width: 2000px;
     margin-inline: auto;
 }
 
 canvas{
-    background: rgb(0, 0, 0);
+    background: rgb(255, 115, 0);
     width: 100%;
 }
 .button-container {

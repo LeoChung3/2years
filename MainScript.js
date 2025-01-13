@@ -20,7 +20,7 @@ function frame(){
         picclass.draw(ctx);
 
 
-        
+        console.log(picclass.numberofpic)
     
         requestAnimationFrame(frame)
 
