@@ -22,6 +22,9 @@ export default class showuspics {
             const img = new Image();
             img.src = imagePath1;
             ctx.drawImage(img, 1500 - (2094 / 2), 0, 2094, 2824);
+            ctx.font = "100px Arial";
+            ctx.fillStyle = "pink";
+            ctx.fillText("      this is us in the elevator in highcross :( you look so cute", 110, 2900);
                 }
             
             if(this.numberofpic == 1)
@@ -29,6 +32,10 @@ export default class showuspics {
             const img2 = new Image();
             img2.src = imagePath2;
             ctx.drawImage(img2, 1500 - (1728 / 2), 0, 1728, 2400);
+
+            ctx.font = "100px Arial";
+            ctx.fillStyle = "pink";
+            ctx.fillText("              this one you know where we are hehe", 110, 2700);
                     }
 
             if(this.numberofpic == 2)
@@ -36,6 +43,9 @@ export default class showuspics {
             const img3 = new Image();
             img3.src = imagePath3;
             ctx.drawImage(img3, 1500 - (3089 / 2), 0, 3089, 2776);
+            ctx.font = "100px Arial";
+            ctx.fillStyle = "pink";
+            ctx.fillText("us during minigolf :(( i want to do stuff like this with you more :(", 110, 2900);
                         }
 
             if(this.numberofpic == 3)
@@ -43,6 +53,10 @@ export default class showuspics {
             const img4 = new Image();
             img4.src = imagePath4;
             ctx.drawImage(img4, 1500 - (2996 / 2), 0, 2996, 2762);
+
+            ctx.font = "100px Arial";
+            ctx.fillStyle = "pink";
+            ctx.fillText("                      can you guess where we are :)", 110, 2900);
                             }
 
             if(this.numberofpic == 4)
@@ -50,7 +64,12 @@ export default class showuspics {
             const img5 = new Image();
             img5.src = imagePath5;
             ctx.drawImage(img5, 1500 - (3237 / 2), 0, 3237, 2176);
-                                }
+
+            ctx.font = "100px Arial";
+            ctx.fillStyle = "pink";
+            ctx.fillText("      this is us as cats lol, can you guess which one is who", 110, 2500);
+
+            }
             if(this.numberofpic == 5)
                 {
                 const img5 = new Image();
