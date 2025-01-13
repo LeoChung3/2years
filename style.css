@@ -1,0 +1,38 @@
+body {
+    background: rgb(1, 255, 44);
+    color: #eee;
+    font-family: monospace;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+canvas{
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
+.button-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+  }
+
+  .inline {
+    display:inline-block;
+    margin-right:65px;
+ }
+ .inline2 {
+    display:inline-block;
+    margin-right:30px;
+ }
+ .inline3 {
+    display:inline-block;
+    margin-right:300px;
+ }
+button{
+    background-color: yellow;
+    font-size: 3.5rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
